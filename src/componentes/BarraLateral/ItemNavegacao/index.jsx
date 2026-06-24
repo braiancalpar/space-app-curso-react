@@ -11,6 +11,9 @@ const ItemListaEstilizado = styled.li`
   display: flex;
   align-items: center;
   gap: 22px;
+  &:hover {
+    text-decoration: underline;
+  }
 `;
 
 const ItemNavegacao = ({

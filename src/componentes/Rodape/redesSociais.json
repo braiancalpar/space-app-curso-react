@@ -1,0 +1,14 @@
+[
+  {
+    "nome": "Facebook",
+    "icone": "/imagens/sociais/facebook.svg"
+  },
+  {
+    "nome": "Twitter",
+    "icone": "/imagens/sociais/twitter.svg"
+  },
+  {
+    "nome": "Instagram",
+    "icone": "/imagens/sociais/instagram.svg"
+  }
+]
