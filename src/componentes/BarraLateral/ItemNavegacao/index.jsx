@@ -11,6 +11,9 @@ const ItemListaEstilizado = styled.li`
   display: flex;
   align-items: center;
   gap: 22px;
+  &:hover {
+    text-decoration: underline;
+  }
 `;
 
 const ItemNavegacao = ({
@@ -18,9 +21,10 @@ const ItemNavegacao = ({
   iconeAtivo,
   iconeInativo,
   ativo = false,
+  onClick
 }) => {
   return (
-    <ItemListaEstilizado $ativo={ativo}>
+    <ItemListaEstilizado $ativo={ativo} onClick={onClick}>
       <img src={ativo ? iconeAtivo : iconeInativo} alt="" />
       {children}
     </ItemListaEstilizado>

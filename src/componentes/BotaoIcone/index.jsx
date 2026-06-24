@@ -8,6 +8,9 @@ const BotaoIcone = styled.button`
   background-color: transparent;
   border: none;
   cursor: pointer;
+  &:hover {
+    transform: scale(1.1);
+  }
 `;
 
 export default BotaoIcone;
